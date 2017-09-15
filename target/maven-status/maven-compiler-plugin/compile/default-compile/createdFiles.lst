@@ -1,0 +1,3 @@
+org/forgerock/openam/auth/nodes/SetProfilePropertyNode$Config.class
+org/forgerock/openam/auth/nodes/SetProfilePropertyNodePlugin.class
+org/forgerock/openam/auth/nodes/SetProfilePropertyNode.class
