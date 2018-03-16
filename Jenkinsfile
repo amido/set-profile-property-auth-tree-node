@@ -3,8 +3,8 @@ pipeline {
   agent any
 
   options {
-      buildDiscarder(logRotator(numToKeepStr: '20', artifactNumToKeepStr: '5'))
-    }
+    buildDiscarder(logRotator(numToKeepStr: '20', artifactNumToKeepStr: '5'))
+  }
 
   stages {
     // Clean the workspace
@@ -31,5 +31,6 @@ pipeline {
         steps {
             sh "mvn deploy"
         }
+    }
   }
 }
